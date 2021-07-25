@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+ 
+.blind{
+  text-align: left;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.contact-section{
+  margin-top: 30px;
+}
+.contact-section .sec-title{
+  margin-bottom: 47px;
+  text-align: center;
+}
+.contact-section .form-box .form input{
+  padding: 6px;
+  margin-bottom: 38px;
+  box-sizing: border-box;
+  color:black;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.contact-section .form-box .form input:focus{
+  background: #e3e6f7;
+  
+  outline: none;
+}
+
+
+
+.contact-section .form-box .send-btn{
+margin-top: 36px;
+text-align: left;
+}
+.contact-section .form-box .send-btn button{
+ padding: 15px 20px;
+ margin: 0;
+ border: 0;
+ border-radius: 6px;
+ font-size: 18px;
+ color: black;
+ font-family: 'Noto Sans KR', sans-serif;
+ cursor: pointer;
+ 
+ }
+ .contact-section .form-box .send-btn button:hover {
+   background: #00394d;
+   transition:1s;
+ }
+
+ @media all and (min-width:768px){
+
+
+  .contact-section{
+    margin-top: 30px;
+}
+.contact-section .sec-title{
+    margin-bottom: 76px;
+}
+.contact-section .form-box .form
+{
+ float: left;
+ width:48.69791666666667%;
+}
+.contact-section .form-box .form {
+ margin-right:2.60416666666667%;
+}
+
+
+ }
+
+ @media all and (min-width:1024px){
+
+   /* contact */
+   .contact-section .sec-title {
+    float:left;
+    margin-bottom:0;
+    }
+    .contact-section .form-box {
+     float: none;
+     width:75%;
+     margin-left: 50px
+    }
+     .contact-section .form-box .form
+     {
+      float: left;
+      width:48.69791666666667%;
+    }
+     .contact-section .form-box .form {
+      margin-right:2.60416666666667%;
+    }
+ }

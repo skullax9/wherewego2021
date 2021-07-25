@@ -1,0 +1,209 @@
+/* �룿�듃 遺덈윭�삤湲� */
+/* @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+html {
+    font-family: "Noto Sans KR", sans-serif;
+} */
+.top-bar-menu-box{
+    background-color:#00394d;
+    margin:0;
+    border:0;
+}
+/* �끂留먮씪�씠利� */
+body, ul, li {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+a {
+    color:inherit;
+    text-decoration:none;
+}
+
+/* �씪�씠釉뚮윭由� */
+.con {
+    margin:0 auto;
+}
+
+.row::after {
+    content:"";
+    display:block;
+    clear:both;
+    
+}
+.noma{
+	margin:0 !important;
+}
+.cell {
+    float:left;
+    box-sizing:border-box;
+}
+
+.cell-right {
+    float:right;
+    box-sizing:border-box;
+}
+
+.block {
+    display:block;
+}
+
+.img-box > img {
+    width:100%;
+    display:block;
+}
+
+.relative {
+    position:relative;
+}
+
+/* 而ㅼ뒪�� */
+.con {
+    width:1200px;
+}
+
+/* �깙諛� �떆�옉 */
+.top-bar {
+    margin-top:30px;
+}
+
+/* �깙諛� - 硫붾돱 諛뺤뒪 1 �떆�옉 */
+.top-bar > .menu-box-1 > ul > li:not(.logo-cell) {
+    width:calc((100%) / 5);
+}
+
+.top-bar > .menu-box-1 > ul > li:not(.logo-cell) > a {
+    /* 諛곌꼍�깋 */
+    background-color:#00394d;
+    padding:13px 0;
+    /* 湲��옄�깋 */
+    color:white;
+    font-weight:bold;
+    text-align:center;
+}
+
+.top-bar > .menu-box-1 > ul > li:not(.logo-cell):hover > a {
+    background-color:#004c66;
+}
+
+.top-bar > .menu-box-1 > ul > li.logo-cell > a {
+    margin-bottom:-9px;
+    position:relative;
+    z-index:1;
+}
+
+/* �깙諛� - �꽌釉뚮찓�돱諛곌꼍 �떆�옉 */
+
+/* �깙諛� - �꽌釉뚮찓�돱諛곌꼍�쓽 �옒�띁(wrapper) */
+.top-bar > .sub-menu-bg > div {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    overflow:hidden;
+    height:0;
+    transition:height 0.3s;
+}
+
+/* �깙諛� - �꽌釉뚮찓�돱諛곌꼍 */
+.top-bar > .sub-menu-bg > div > div {
+    position:absolute;
+    top: 0px;
+    bottom: auto;
+    left:0px;
+    width:calc(100% - 0px);
+    height:300px;
+    /* 諛곌꼍�깮 蹂�寃� */
+    background-color: #004c66;
+    /* 諛곌꼍�씠誘몄� 蹂�寃� 1116*470 */
+    
+   
+    
+    transform:translateY(-100%);
+    transition:transform 0.3s;
+}
+
+.top-bar > .sub-menu-bg > div > div::before, .top-bar > .sub-menu-bg > div > div::after {
+    display:block;
+    content:"";
+    top:0;
+    left:-10px;
+    width:0;
+    height:0;
+    border-top:10px solid #484d50;
+    border-left:10px solid transparent;
+    z-index:-1;
+    position:absolute;
+}
+
+.top-bar > .sub-menu-bg > div > div::after {
+    left:auto;
+    right:-10px;
+    transform:rotateY(180deg);
+}
+
+.top-bar:hover > .sub-menu-bg > div > div {
+    transform:translateY(0);
+}
+
+.top-bar:hover > .sub-menu-bg > div {
+     height:350px;
+}
+
+/* �깙諛� - �꽌釉뚮찓�돱 - �떆�옉 */
+.top-bar > .menu-box-1 > ul > li:first-child > div {
+    margin-left:10px;
+}
+
+.top-bar > .menu-box-1 > ul > li:last-child > div {
+    margin-right:10px;
+}
+
+.top-bar > .menu-box-1 > ul > li > div {
+    z-index:1;
+}
+
+.top-bar > .menu-box-1 > ul > li > div > div {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:0;
+    overflow:hidden;
+    transition:height 0.3s;
+}
+
+.top-bar:hover > .menu-box-1 > ul > li > div > div {
+     height:350px;
+}
+
+.top-bar > .menu-box-1 > ul > li > div > div > ul {
+     height:350px;
+    transform:translateY(-100%);
+    transition:transform 0.3s;
+}
+
+.top-bar:hover > .menu-box-1 > ul > li > div > div > ul {
+    transform:translateY(0);
+}
+
+.top-bar > .menu-box-1 > ul > li > div > div > ul > li > a {
+    /* 硫붾돱湲��옄�깋 */
+    color:white;
+    padding:8px 8px;
+    white-space:nowrap;
+    font-size:18px;
+    overflow-x:hidden;
+    text-overflow:ellipsis;
+    text-align: center;
+}
+
+.top-bar > .menu-box-1 > ul > li > div > div > ul > li:hover > a {
+    background-color:rgba(0,0,0,0.2);
+    color:white;
+    text-decoration:underline;
+}
+
+/* �깙諛� - 硫붾돱 諛뺤뒪 1 �걹 */
+/* �깙諛� �걹 */

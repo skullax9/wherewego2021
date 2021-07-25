@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
+.recommendation{
+    font-size: 33px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-left: 10px
+}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 1200px;
+}
+
+.section-1{
+    width: 380px;
+    height: 314px;
+    
+    margin-bottom: 40px;
+}
+.section-1-img a img{
+    /* �씠誘몄� �겕湲� */
+    width: 380px;
+    height: 230px;
+    
+}
+.px30{
+    margin: 0 30px;
+}
+
+.section-1-p{
+    width: 380px;
+    height: 65px;
+    padding: 8px 8px;
+    font-size:18px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+.section-2{
+    width: 100%;
+    height: 158px;
+    border: 1px solid black;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.section-3{
+    display: flex;
+    justify-content: space-between;
+}
+.section-3-p{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+
+}
+.section-3-p a{
+    font-size: 18px;
+     font-family: 'Noto Sans KR', sans-serif;
+     color:black;
+}
+.section-3-p a:hover,.section-3-p-p:hover{
+    text-decoration:none;
+     
+     color: #4070FF;
+}
+.section-3-p-p{
+	 font-family: 'Noto Sans KR', sans-serif;
+	 color:black;
+	 font-size: 18px
+}
+
+.section-name-name{
+	
+	 font-size: 33px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.section-3-table{
+    margin-top: 20px;
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+}
+tr,td{
+    border: 1px solid black;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+
+.section-4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.section-4-p{
+      font-size: 33px;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+
+#map{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.weather{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.form-a-color a{
+	text-decoration: none;
+	color: black;
+}
+
+
+.select_comm{
+	text-align: right;
+}
+
+
+.select_button1{
+             width: 138px;
+             height: 48px;
+            font-size:20px;
+            border: 1px solid #ddd;
+            color: black;
+            background-color: white;
+            text-align: center;
+           
+        }
+.select_button1 option{
+            padding-left: 50px;
+        }
+        
+.select_button1:focus{
+            outline: none;
+        }
+        .select_button2{
+             width: 138px;
+             height: 38px;
+            font-size:20px;
+            border: 1px solid #ddd;
+            color: black;
+            background-color: white;
+            text-align: center;
+           margin-left: 10px
+        }
+.select_button2 option{
+            padding-left: 50px;
+        }
+.select_button2:focus{
+            outline: none;
+        }

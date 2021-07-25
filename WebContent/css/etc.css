@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
+.board_table_a{
+	color: #4070FF;
+	  font-family: 'Noto Sans KR', sans-serif;
+}
+.board_table_td{
+	  font-family: 'Noto Sans KR', sans-serif;
+}
+.board3text{
+	font-size: 1.75rem;
+	font-family: 'Noto Sans KR', sans-serif;
+}

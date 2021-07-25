@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+.mypagetable{
+  margin-top: 150px;
+  
+  text-align: left;
+}
+.mypagetable_box{
+  margin-left: 20px;
+  width: 70%;
+  height: 529px;
+  border-top: 1px solid black;
+}
+.mypagetable_box_name{
+  font-size: 25px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400;
+  padding: 15px 10px 15px 10px;
+  border-bottom: 1px solid #222;
+  margin-bottom: 3px; 
+}
+.mypagetable_box-table{
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 468px;
+ 
+}
+.mypagetable_box-table-td1{
+  width: 25%;
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400;
+  padding: 5px 15px 5px 5px;
+  
+}
+.mypagetable_box-table-td2{
+  width: 75%;
+  word-break: break-all;
+  font-family: 'Nanum Gothic', sans-serif;
+  line-height: none !important;
+}
+.mypagetable_box-table-td2 a{
+  text-decoration: none;
+  color: black;
+}
+.mypagetable_box-table-td2 a:hover{
+  text-decoration: none;
+  color: black;
+}
+.mypagetable_box{
+  margin-bottom: 200px;
+}
+.mypagetable_pgn{
+  margin-top: 15px;
+}
