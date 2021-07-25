@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>¾îµð°¥±î?</title>
+    <title>ï¿½ï¿½ð°¥±ï¿½?</title>
     
     <link rel="stylesheet" href="./css/css.css">
     <link rel="stylesheet" href="./css/reset.css">
@@ -61,10 +61,10 @@
    %>
 </head>
 <body>
-    <jsp:include page="Header.jsp" /> <!-- ¸Þ´º -->
+    <jsp:include page="Header.jsp" /> <!-- ï¿½Þ´ï¿½ -->
     
     <div id="warp">
-    <div class="main-box-name">#ÃàÁ¦</div>
+    <div class="main-box-name">#ï¿½ï¿½ï¿½ï¿½</div>
     
         <hr class="hr1">
         
@@ -80,27 +80,27 @@
 
                     <div class="product_info_box">
 
-                        <div> <!-- ½ÃÀÛ  -->
-                            <p>¿©ÇàÁö</p>   <!-- Á¦¸ñ -->
-                            <span class="product_info-span"> <!-- ¼³¸í spanÅÂ±× Ãß°¡ÇÏ¸é ¾Æ·¡·Î ³»·Á°¨ -->
+                        <div> <!-- ï¿½ï¿½ï¿½ï¿½  -->
+                            <p>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</p>   <!-- ï¿½ï¿½ï¿½ï¿½ -->
+                            <span class="product_info-span"> <!-- ï¿½ï¿½ï¿½ï¿½ spanï¿½Â±ï¿½ ï¿½ß°ï¿½ï¿½Ï¸ï¿½ ï¿½Æ·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -->
                                  <span><%=location %></span> 
                             </span>
-                        </div> <!-- ³¡ -->
+                        </div> <!-- ï¿½ï¿½ -->
 
 
-                        <div> <!-- ½ÃÀÛ  -->
-                            <p>ÁÖ¼Ò</p>   <!-- Á¦¸ñ -->
-                            <span class="product_info-span"> <!-- ¼³¸í spanÅÂ±× Ãß°¡ÇÏ¸é ¾Æ·¡·Î ³»·Á°¨ -->
+                        <div> <!-- ï¿½ï¿½ï¿½ï¿½  -->
+                            <p>ï¿½Ö¼ï¿½</p>   <!-- ï¿½ï¿½ï¿½ï¿½ -->
+                            <span class="product_info-span"> <!-- ï¿½ï¿½ï¿½ï¿½ spanï¿½Â±ï¿½ ï¿½ß°ï¿½ï¿½Ï¸ï¿½ ï¿½Æ·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -->
                                  <span><%=place %></span> 
                             </span>
-                        </div> <!-- ³¡ -->
+                        </div> <!-- ï¿½ï¿½ -->
 
-                        <div style="height:238.8px;"> <!-- ½ÃÀÛ  -->
-                            <p>¼³¸í</p>   <!-- Á¦¸ñ -->
-                            <span class="product_info-span"> <!-- ¼³¸í spanÅÂ±× Ãß°¡ÇÏ¸é ¾Æ·¡·Î ³»·Á°¨ -->
+                        <div style="height:238.8px;"> <!-- ï¿½ï¿½ï¿½ï¿½  -->
+                            <p>ï¿½ï¿½ï¿½ï¿½</p>   <!-- ï¿½ï¿½ï¿½ï¿½ -->
+                            <span class="product_info-span"> <!-- ï¿½ï¿½ï¿½ï¿½ spanï¿½Â±ï¿½ ï¿½ß°ï¿½ï¿½Ï¸ï¿½ ï¿½Æ·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -->
                                  <span><%=description %></span> 
                             </span>
-                        </div> <!-- ³¡ -->
+                        </div> <!-- ï¿½ï¿½ -->
                     </div>   
                     
                 </div>
@@ -108,14 +108,14 @@
             </div>
 
             <div class="product_map">
-                <!-- Áöµµ ³Ö¾îÁÖ¼¼¿è ¾Æ·¡´Â test -->
+                <!-- ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½ ï¿½Æ·ï¿½ï¿½ï¿½ test -->
                 <div id="map" style="width:600px; height: 528.8px;">
-        			<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2a36619881080dc1ee6cfdf790ff3c6a"></script>
+        			<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey="></script>
         			<script>
-        				var container = document.getElementById('map'); //Áöµµ¸¦ ´ãÀ» ¿µ¿ªÀÇ DOM ·¹ÆÛ·±½º
-        				var options = { //Áöµµ¸¦ »ý¼ºÇÒ ¶§ ÇÊ¿äÇÑ ±âº» ¿É¼Ç
-        					center: new kakao.maps.LatLng(<%=latitude%>, <%=longitude%>), //ÁöµµÀÇ Áß½ÉÁÂÇ¥.
-        					level: 3 //ÁöµµÀÇ ·¹º§(È®´ë, Ãà¼Ò Á¤µµ)
+        				var container = document.getElementById('map'); //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ DOM ï¿½ï¿½ï¿½Û·ï¿½ï¿½ï¿½
+        				var options = { //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ê¿ï¿½ï¿½ï¿½ ï¿½âº» ï¿½É¼ï¿½
+        					center: new kakao.maps.LatLng(<%=latitude%>, <%=longitude%>), //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß½ï¿½ï¿½ï¿½Ç¥.
+        					level: 3 //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(È®ï¿½ï¿½, ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½)
         				};
         				
         				var marker = new kakao.maps.Marker({
@@ -142,7 +142,7 @@
       				} 
       				%>
                 <div class="product_map_com" style="margin-top:14.5px;">
-                	<div class="product_map_com-name">Àå¼ÒÆò°¡ <%=totalc %>°³</div>
+                	<div class="product_map_com-name">ï¿½ï¿½ï¿½ï¿½ï¿½ <%=totalc %>ï¿½ï¿½</div>
                     	<table class="product_map_com-table">
                  	
       
@@ -180,10 +180,10 @@
                     <div class="product_end_sand-box">
                         
                     <form action="place_comment.jsp?location=<%=lo %>" class="product_end_sand" >
-                        <span>Àå¼ÒÆò°¡</span>
+                        <span>ï¿½ï¿½ï¿½ï¿½ï¿½</span>
                         <input type="hidden" name="pla" value="<%=lo%>">
                         <input type="text" name="commentary">
-                        <button type="submit">´ñ±Û ´Þ±â</button>
+                        <button type="submit">ï¿½ï¿½ï¿½ ï¿½Þ±ï¿½</button>
                     </form>
 
                     </div>
@@ -195,12 +195,12 @@
     </div>
 <% } catch (NullPointerException k) { %>
 	<script>
-	alert("Á¤»óÀûÀÎ °æ·Î¸¦ ÀÌ¿ëÇØ ÁÖ¼¼¿ä");
+	alert("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Î¸ï¿½ ï¿½Ì¿ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½");
 	location.href="index.jsp";
 	</script>
 <%} catch (SQLException o) { %>
 <script>
-alert("Á¤»óÀûÀÎ °æ·Î¸¦ ÀÌ¿ëÇØ ÁÖ¼¼¿ä");
+alert("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Î¸ï¿½ ï¿½Ì¿ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½");
 location.href="index.jsp";
 </script>
 <%}
